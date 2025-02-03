@@ -96,7 +96,7 @@ function create_custom_taxonomy() {
                 'new_item_name' => __('Новое имя категории'),
                 'menu_name' => __('Категории'),
             ),
-            'hierarchical' => true, // Устанавливаем true для иерархической структуры (как категории)
+            'hierarchical' => true,
             'show_ui' => true, // Показывать в админке
             'show_admin_column' => true, // Показывать в колонках админки
             'query_var' => true, // Использовать в запросах
